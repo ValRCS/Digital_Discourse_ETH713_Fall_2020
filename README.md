@@ -1,6 +1,7 @@
-# Digital_Discourse_ETH713_Fall_2020 , Fall_2021
+# Digital_Discourse_ETH713
 * Digital_Discourse_ETH713_Fall_2020 at RTU 
 * Digital_Discourse_ETH713_Fall_2021 at RTU 
+* Digital_Discourse_ETH713_Fall_2022 at RTU 
 
 ## Tools
 
