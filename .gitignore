@@ -18,3 +18,11 @@ analysis/publication_stats.xlsx
 analysis/publications_word_use.png
 analysis/publications.png
 .ipynb_checkpoints/Digital Discourse Final Project-checkpoint.ipynb
+.idea/Digital_Discourse_ETH713_Fall_2020.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.ipynb_checkpoints/Python_Introduction-checkpoint.ipynb
+.gitignore
+TextProcessing/.ipynb_checkpoints/CountingWords-checkpoint.ipynb
