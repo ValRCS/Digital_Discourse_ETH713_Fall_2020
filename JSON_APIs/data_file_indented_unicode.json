@@ -1,0 +1,26 @@
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "hobbies": [
+        "running",
+        "sky diving",
+        "dancing",
+        "šahs"
+    ],
+    "age": 43,
+    "children": [
+        {
+            "firstName": "Alice",
+            "age": 7
+        },
+        {
+            "firstName": "Bob",
+            "age": 13
+        },
+        {
+            "age": 14,
+            "firstName": "Čarlijs"
+        }
+    ],
+    "car": "Ņiva"
+}
