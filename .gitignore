@@ -26,3 +26,4 @@ analysis/publications.png
 .ipynb_checkpoints/Python_Introduction-checkpoint.ipynb
 .gitignore
 TextProcessing/.ipynb_checkpoints/CountingWords-checkpoint.ipynb
+JSON_APIs/mock_data.xlsx
