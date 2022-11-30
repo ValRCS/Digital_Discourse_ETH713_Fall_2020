@@ -27,3 +27,6 @@ analysis/publications.png
 .gitignore
 TextProcessing/.ipynb_checkpoints/CountingWords-checkpoint.ipynb
 JSON_APIs/mock_data.xlsx
+WebScraping/agenskalns_hand_over_11_30_17_45.xlsx
+WebScraping/center.csv
+WebScraping/centrs_30_11_2022.xlsx
