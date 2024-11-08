@@ -9,14 +9,14 @@
 
 #### Visual Studio Code
 
-** Recommended for 2022 **
+** Recommended for 2022,2023,2024 **
 
 * Download - https://code.visualstudio.com/
 * Install Python from https://www.python.org/
 * Install Python extension for Visual Studio Code https://marketplace.visualstudio.com/items?itemName=ms-python.python
 * Using with Jupyter Notebooks - https://code.visualstudio.com/docs/datascience/jupyter-notebooks
 
-** Still useful but not essential in 2022 **
+** Still useful but not essential past 2022 **
 Anaconda Jupyter
 * https://www.anaconda.com/products/individual
 
