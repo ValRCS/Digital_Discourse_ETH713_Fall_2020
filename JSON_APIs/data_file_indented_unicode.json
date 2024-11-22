@@ -5,7 +5,8 @@
         "running",
         "sky diving",
         "dancing",
-        "šahs"
+        "šahs",
+        "šūpošanās"
     ],
     "age": 43,
     "children": [
@@ -18,8 +19,8 @@
             "age": 13
         },
         {
-            "age": 14,
-            "firstName": "Čarlijs"
+            "firstName": "Čarlijs",
+            "age": 14
         }
     ],
     "car": "Ņiva"
