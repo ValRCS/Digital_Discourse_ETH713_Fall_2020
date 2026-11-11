@@ -9,8 +9,10 @@
 ### Learning objectives
 
 - Distinguish JSON text from Python dictionaries and lists; navigate nested records.
+- Use **two-way JSON ↔ Python type-mapping tables** and explain parsing, serialization, deserialization, and potentially lossy round trips (e.g. tuple → array → list).
+- Compare `json.loads` / `json.load` with `json.dumps` / `json.dump`; explain JSON text versus file streams, UTF-8, and Unicode escaping.
 - Serialize and deserialize UTF-8 JSON with the Python standard library.
-- Use `requests` with timeouts, HTTP error checks, and JSON schema checks.
+- Distinguish `response.content` (bytes), `response.text` (string), and `response.json()` (parsed data); use `requests` with timeouts, HTTP error checks, and JSON schema checks.
 - Retrieve a small, explicitly selected multilingual set of MediaWiki summaries.
 - Extract text, record provenance, count Unicode word forms, and export TSV.
 - Explain sampling, genre, provenance, and linguistic limitations.
@@ -38,4 +40,4 @@ Outputs are generated in the temporary Colab filesystem. Download them if they m
 
 ### Instructor guidance
 
-The lesson is deliberately introductory: approximately 45 minutes of JSON/API fundamentals, 35 minutes of structured discourse acquisition and analysis, and 10 minutes of student tasks and reflection. The Wikipedia sample is a convenience sample of encyclopedic summaries, not representative social-media data. The next logical lesson is web scraping and pandas.
+The lesson is deliberately introductory: **15 minutes JSON versus Python objects, 15 minutes parsing/serialization/deserialization, 15 minutes HTTP APIs, 20 minutes structured discourse acquisition, 15 minutes word frequencies/export, and 10 minutes exercises/interpretation**. Ask students to predict the output and inspect `type()` at each representation boundary. The Wikipedia sample is a convenience sample of encyclopedic summaries, not representative social-media data. The next logical lesson is web scraping and pandas.
