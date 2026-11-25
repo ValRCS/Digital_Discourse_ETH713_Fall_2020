@@ -17,15 +17,15 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 ## Structure and status
 
 - index.html: course landing page and technical lesson index.
-- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01, 04 and 05 are full interactive lessons; five others are outlines.
+- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01, 02, 04 and 05 are full interactive lessons; four others are outlines.
 - assets/css/: responsive shared design and print styles.
-- assets/js/: shared theme, local progress, code copying and formative quizzes. Weeks 01, 04 and 05 use dedicated JavaScript and CSS.
+- assets/js/: shared theme, local progress, code copying and formative quizzes. Weeks 01, 02, 04 and 05 use dedicated JavaScript and CSS.
 - assets/img/: local SVG course and Week 05 illustrations and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
 - resources/: notebook links, getting started, research workflow.
 - datasets/: catalogue of existing source files, with provenance notes.
 - playground/: dynamic archive sandbox available; other tools planned.
 
-Technical weeks 3–5 correspond to the repository's confirmed 2026 schedule (4, 11 and 25 November). Week 1 is a full foundational lesson; Week 2 is a foundation outline; weeks 6–8 and project timing are provisional. Original notebooks remain canonical executable Python materials. JavaScript demos must not be described as Python execution; formal assessment remains in Moodle.
+Technical weeks 3–5 correspond to the repository's confirmed 2026 schedule (4, 11 and 25 November). Weeks 1–2 are full foundational lessons; weeks 6–8 and project timing are provisional. Original notebooks remain canonical executable Python materials. JavaScript demos must not be described as Python execution; formal assessment remains in Moodle.
 
 ## Authoring conventions
 
@@ -63,3 +63,7 @@ A 90-minute core at `lessons/01-python-introduction/` covers eight sections and 
 ## Week 04 Version 1 · 25 November 2026
 
 90-minute JSON and APIs companion: JSON validator, nested tree, Python type mappings, round-trip and Unicode labs, HTTP simulator, local corpus builder and JSON/TSV exports, language-specific word frequencies and 12 formative questions. No live API calls; browser logic uses JavaScript, and Python examples run in Colab. Local synthetic fixtures mirror canonical files under JSON_APIs/fixtures/. Run `python scripts/check_docs.py`, `node --check docs/assets/js/week04-json-apis.js`, and `node scripts/test_week04.js`. Browser smoke test: serve over HTTP, test fixture loading, invalid JSON, nested selection, Unicode, HTTP status/shape failures, corpus downloads, language and field changes, quizzes, theme, keyboard and mobile layout. JSON is the canonical export with complete provenance; TSV contains selected fields and basic source metadata.
+
+## Week 02 Version 1 · 25 November 2026
+
+90-minute core, six JavaScript browser laboratories, 12 formative questions, troubleshooting and eight optional topics. The new `Using_Libraries_and_Notebooks_2026.ipynb` is self-contained and uses only the standard library; historical notebooks remain unchanged. Browser demos do not execute Python; Markdown preview is deliberately limited and filesystem simulation excludes symlinks/permissions. Run `python scripts/check_docs.py`, `node --check docs/assets/js/week02-notebooks.js`, `node scripts/test_week02.js`, `python scripts/test_week02_python.py`. Also restart and run all in Jupyter/Colab and smoke-test six labs, copy, quiz, theme, keyboard and narrow screens. The Python script executes code cells, not an actual graphical notebook kernel. Temporary notebook files are isolated and removable; no live network or package installation is required.

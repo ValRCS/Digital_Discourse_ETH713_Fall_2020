@@ -7,14 +7,17 @@
 
 [GitHub Pages course companion](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/)  · [Website source and maintenance instructions](docs/README.md).
 
-The static website provides interactive Weeks 01 and 05, additional lesson outlines, resource links and a playground roadmap. The notebooks remain the executable teaching materials.
+The static website provides interactive Weeks 01, 02, 04 and 05, additional lesson outlines, resource links and a playground roadmap. The notebooks remain the executable teaching materials.
 
 [Week 01 — Python foundations (interactive Version 1)](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/01-python-introduction/index.html) · [Existing introduction notebook](Python_Introduction.ipynb).
+
+[Week 02 — Notebooks and libraries (interactive Version 1)](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/02-notebooks-libraries/index.html) · [2026 notebook](Using_Libraries_and_Notebooks_2026.ipynb).
 
 ## 2026 technical teaching sequence — DE0823 (legacy ETH713)
 
 | Technical week | Notebook | Colab |
 |---|---|---|
+| 2 · Foundation | [Notebooks and libraries](Using_Libraries_and_Notebooks_2026.ipynb) | [Open](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/Using_Libraries_and_Notebooks_2026.ipynb) |
 | 3 · 4 November | [Text processing](TextProcessing/CountingWords_2026.ipynb) | [Open](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/TextProcessing/CountingWords_2026.ipynb) |
 | 4 · 11 November | [JSON APIs](JSON_APIs/Using_JSON_APIs_2026.ipynb) | [Open](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/JSON_APIs/Using_JSON_APIs_2026.ipynb) |
 | 5 · 25 November | [Web scraping](WebScraping/Web_Scraping_2026.ipynb) · [resources](WebScraping/README.md) | [Open](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/WebScraping/Web_Scraping_2026.ipynb) |
