@@ -7,11 +7,13 @@
 
 [GitHub Pages course companion](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/)  · [Website source and maintenance instructions](docs/README.md).
 
-The static website provides interactive Weeks 01, 02, 04 and 05, additional lesson outlines, resource links and a playground roadmap. The notebooks remain the executable teaching materials.
+The static website provides interactive Weeks 01, 02, 04, 05 and 06, additional lesson outlines, resource links and a playground roadmap. The notebooks remain the executable teaching materials.
 
 [Week 01 — Python foundations (interactive Version 1)](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/01-python-introduction/index.html) · [Existing introduction notebook](Python_Introduction.ipynb).
 
 [Week 02 — Notebooks and libraries (interactive Version 1)](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/02-notebooks-libraries/index.html) · [2026 notebook](Using_Libraries_and_Notebooks_2026.ipynb).
+
+[Week 06 — Corpus analysis (interactive Version 1)](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/06-corpus-analysis/index.html) · [Synthetic corpus](docs/datasets/corpus-analysis/sample_media_corpus.json).
 
 ## 2026 technical teaching sequence — DE0823 (legacy ETH713)
 

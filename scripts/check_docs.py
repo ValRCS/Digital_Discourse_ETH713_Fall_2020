@@ -102,6 +102,22 @@ def main():
         published = DOCS / "datasets" / "json-apis" / name
         if not published.is_file() or not canonical.is_file() or published.read_bytes() != canonical.read_bytes():
             problems.append(f"Week 04 fixture mismatch: {name}")
+    corpus_folder = DOCS / "datasets" / "corpus-analysis"
+    try:
+        corpus = json.loads((corpus_folder / "sample_media_corpus.json").read_text(encoding="utf-8"))
+        records = corpus["records"]
+        if len(records) != 24 or len({r["id"] for r in records}) != 24:
+            problems.append("Week 06 must contain 24 unique documents")
+        if corpus["metadata"]["source_kind"] != "synthetic_fixture":
+            problems.append("Week 06 fixture provenance missing")
+        for lang in ("en", "lv"):
+            for source in ("Environmental bulletin", "Business bulletin"):
+                subset = [r for r in records if r["language"] == lang and r["metadata"]["source"] == source]
+                if len(subset) != 6 or any(not r["text"] for r in subset):
+                    problems.append(f"Week 06 fixture imbalance: {lang} {source}")
+        json.loads((corpus_folder / "expected_results.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        problems.append(f"Invalid Week 06 fixture: {exc}")
     if not pages:
         problems.append("No HTML pages found")
     print(f"Checked {len(pages)} HTML pages and {checked} local/canonical references.")

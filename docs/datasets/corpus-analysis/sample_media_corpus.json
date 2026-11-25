@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "source_kind": "synthetic_fixture",
+    "created": "2026-11-25",
+    "license": "CC0-1.0",
+    "selection": "24 invented texts, six per language and source; three per year per group.",
+    "limitations": "Fictional publications; not translations, quotations or empirical evidence."
+  },
+  "records": [
+    {
+      "id": "article-001",
+      "language": "en",
+      "title": "Climate policy supports public transport",
+      "text": "Climate policy supports public transport. Climate change threatens coastal communities.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-002",
+      "language": "en",
+      "title": "Renewable energy reduces emissions",
+      "text": "Renewable energy reduces emissions. Climate policy encourages clean energy.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-003",
+      "language": "en",
+      "title": "The city invests in buses",
+      "text": "The city invests in buses. Public transport improves air quality.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      }
+    },
+    {
+      "id": "article-004",
+      "language": "en",
+      "title": "Residents demand climate action",
+      "text": "Residents demand climate action. Communities discuss climate justice.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-005",
+      "language": "en",
+      "title": "Climate change affects rivers and farms",
+      "text": "Climate change affects rivers and farms. Local authorities support adaptation.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-006",
+      "language": "en",
+      "title": "Climate policy requires public support",
+      "text": "Climate policy requires public support. Climate action protects vulnerable communities.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      }
+    },
+    {
+      "id": "article-007",
+      "language": "en",
+      "title": "Investment and growth dominate the outlook",
+      "text": "Investment and growth dominate the outlook. Climate regulation affects costs.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-008",
+      "language": "en",
+      "title": "Energy prices influence investment",
+      "text": "Energy prices influence investment. Companies assess climate policy and risk.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-009",
+      "language": "en",
+      "title": "Industrial growth depends on exports and investment",
+      "text": "Industrial growth depends on exports and investment. Firms discuss emissions trading.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      }
+    },
+    {
+      "id": "article-010",
+      "language": "en",
+      "title": "Climate policy should support growth and investment",
+      "text": "Climate policy should support growth and investment. Regulation may increase costs.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-011",
+      "language": "en",
+      "title": "The city awards transport contracts",
+      "text": "The city awards transport contracts. Private investment supports electric buses.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-012",
+      "language": "en",
+      "title": "Business leaders discuss tax policy and growth",
+      "text": "Business leaders discuss tax policy and growth. Climate action creates investment opportunities.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      }
+    },
+    {
+      "id": "article-013",
+      "language": "lv",
+      "title": "Klimata politika atbalsta sabiedrisko transportu",
+      "text": "Klimata politika atbalsta sabiedrisko transportu. Klimata pārmaiņas apdraud piekrasti.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-014",
+      "language": "lv",
+      "title": "Atjaunīgā enerģija mazina emisijas",
+      "text": "Atjaunīgā enerģija mazina emisijas. Klimata politika veicina tīru enerģiju.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-015",
+      "language": "lv",
+      "title": "Pilsēta iegulda sabiedriskajā transportā",
+      "text": "Pilsēta iegulda sabiedriskajā transportā. Tas uzlabo gaisa kvalitāti.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      }
+    },
+    {
+      "id": "article-016",
+      "language": "lv",
+      "title": "Iedzīvotāji prasa rīcību klimata jomā",
+      "text": "Iedzīvotāji prasa rīcību klimata jomā. Kopienas apspriež klimata taisnīgumu.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-017",
+      "language": "lv",
+      "title": "Klimata pārmaiņas ietekmē upes un laukus",
+      "text": "Klimata pārmaiņas ietekmē upes un laukus. Pašvaldības atbalsta plūdu novēršanu.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-018",
+      "language": "lv",
+      "title": "Klimata politika prasa sabiedrības atbalstu",
+      "text": "Klimata politika prasa sabiedrības atbalstu. Rīcība aizsargā kopienas.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      }
+    },
+    {
+      "id": "article-019",
+      "language": "lv",
+      "title": "Investīcijas un izaugsme nosaka ekonomikas perspektīvas",
+      "text": "Investīcijas un izaugsme nosaka ekonomikas perspektīvas. Klimata regulējums ietekmē izmaksas.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-020",
+      "language": "lv",
+      "title": "Enerģijas cenas ietekmē investīcijas",
+      "text": "Enerģijas cenas ietekmē investīcijas. Uzņēmumi vērtē klimata politiku un risku.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-021",
+      "language": "lv",
+      "title": "Rūpniecības izaugsme ir atkarīga no eksporta",
+      "text": "Rūpniecības izaugsme ir atkarīga no eksporta. Uzņēmumi apspriež emisiju tirdzniecību.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      }
+    },
+    {
+      "id": "article-022",
+      "language": "lv",
+      "title": "Klimata politika veicina izaugsmi un investīcijas",
+      "text": "Klimata politika veicina izaugsmi un investīcijas. Regulējums var palielināt izmaksas.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "news"
+      }
+    },
+    {
+      "id": "article-023",
+      "language": "lv",
+      "title": "Pilsēta slēdz transporta līgumus",
+      "text": "Pilsēta slēdz transporta līgumus. Privātās investīcijas atbalsta reģionu izaugsmi.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      }
+    },
+    {
+      "id": "article-024",
+      "language": "lv",
+      "title": "Uzņēmēji apspriež nodokļu politiku un izaugsmi",
+      "text": "Uzņēmēji apspriež nodokļu politiku un izaugsmi. Klimata rīcība rada investīciju iespējas.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      }
+    }
+  ]
+}

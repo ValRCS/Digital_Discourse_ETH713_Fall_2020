@@ -1,0 +1,20 @@
+"use strict";
+const assert=require("node:assert/strict");
+const fs=require("node:fs"),path=require("node:path");
+const M=require("../docs/assets/js/week06-corpus-model.js");
+const read=n=>JSON.parse(fs.readFileSync(path.join(__dirname,"../docs/datasets/corpus-analysis",n),"utf8"));
+const ds=read("sample_media_corpus.json").records, expected=read("expected_results.json");
+assert.equal(ds.length,24);assert.equal(new Set(ds.map(d=>d.id)).size,24);
+for(const l of ["en","lv"])for(const s of ["Environmental bulletin","Business bulletin"])assert.equal(M.selectDocs(ds,l,"2024","all",s).length,3);
+assert.deepEqual(M.tokens("Ri\u0304ga, ĀB!"),["rīga","āb"]);
+assert.deepEqual(M.tokens("A!",false,true),["A","!"]);
+assert.equal(M.norm(80,10000),8);assert.equal(M.norm(200,50000),4);assert.equal(M.norm(0,0),null);
+const tiny=[{text:"A climate. Policy climate"},{text:"change now"}];
+assert.equal(M.kwic(tiny,"climate",1)[1].right.length,0);assert.equal(M.kwic(tiny,"climate",1)[0].right[0],"Policy");
+assert.equal(M.kwic(tiny,"Climate",1,true).length,0);
+assert(!M.ngrams(tiny,2).some(x=>x[0]==="climate change"));assert(!M.ngrams(tiny,2,true).some(x=>x[0]==="climate policy"));
+assert(M.ngrams(tiny,2,false).some(x=>x[0]==="climate policy"));
+assert.equal(M.neighbours(tiny,"climate",1).find(x=>x[0]==="policy")[1],2);
+assert(M.compare([],["climate"]).rows[0].rates.every(x=>x===null));
+for(const l of ["en","lv"]){const d=M.selectDocs(ds,l),q=l==="en"?"climate":"klimata";assert.deepEqual({tokens:d.flatMap(x=>M.tokens(x.text)).length,kwic:M.kwic(d,q).length,bigrams:M.ngrams(d,2),neighbours:M.neighbours(d,q,3),comparison:M.compare(d,[q])},expected[l]);}
+console.log("Week 06 JS checks passed");

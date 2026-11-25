@@ -1,0 +1,1120 @@
+{
+  "en": {
+    "tokens": 121,
+    "kwic": 12,
+    "bigrams": [
+      [
+        "climate policy",
+        5
+      ],
+      [
+        "climate action",
+        3
+      ],
+      [
+        "and growth",
+        2
+      ],
+      [
+        "and investment",
+        2
+      ],
+      [
+        "climate change",
+        2
+      ],
+      [
+        "policy and",
+        2
+      ],
+      [
+        "public transport",
+        2
+      ],
+      [
+        "the city",
+        2
+      ],
+      [
+        "action communities",
+        1
+      ],
+      [
+        "action creates",
+        1
+      ],
+      [
+        "action protects",
+        1
+      ],
+      [
+        "affects costs",
+        1
+      ],
+      [
+        "affects rivers",
+        1
+      ],
+      [
+        "air quality",
+        1
+      ],
+      [
+        "and farms",
+        1
+      ],
+      [
+        "and risk",
+        1
+      ],
+      [
+        "assess climate",
+        1
+      ],
+      [
+        "authorities support",
+        1
+      ],
+      [
+        "awards transport",
+        1
+      ],
+      [
+        "buses public",
+        1
+      ],
+      [
+        "business leaders",
+        1
+      ],
+      [
+        "change affects",
+        1
+      ],
+      [
+        "change threatens",
+        1
+      ],
+      [
+        "city awards",
+        1
+      ],
+      [
+        "city invests",
+        1
+      ],
+      [
+        "clean energy",
+        1
+      ],
+      [
+        "climate justice",
+        1
+      ],
+      [
+        "climate regulation",
+        1
+      ],
+      [
+        "coastal communities",
+        1
+      ],
+      [
+        "communities discuss",
+        1
+      ],
+      [
+        "companies assess",
+        1
+      ],
+      [
+        "contracts private",
+        1
+      ],
+      [
+        "creates investment",
+        1
+      ],
+      [
+        "demand climate",
+        1
+      ],
+      [
+        "depends on",
+        1
+      ],
+      [
+        "discuss climate",
+        1
+      ],
+      [
+        "discuss emissions",
+        1
+      ],
+      [
+        "discuss tax",
+        1
+      ],
+      [
+        "dominate the",
+        1
+      ],
+      [
+        "electric buses",
+        1
+      ],
+      [
+        "emissions climate",
+        1
+      ],
+      [
+        "emissions trading",
+        1
+      ],
+      [
+        "encourages clean",
+        1
+      ],
+      [
+        "energy prices",
+        1
+      ],
+      [
+        "energy reduces",
+        1
+      ],
+      [
+        "exports and",
+        1
+      ],
+      [
+        "farms local",
+        1
+      ],
+      [
+        "firms discuss",
+        1
+      ],
+      [
+        "growth and",
+        1
+      ],
+      [
+        "growth climate",
+        1
+      ],
+      [
+        "growth depends",
+        1
+      ],
+      [
+        "growth dominate",
+        1
+      ],
+      [
+        "improves air",
+        1
+      ],
+      [
+        "in buses",
+        1
+      ],
+      [
+        "increase costs",
+        1
+      ],
+      [
+        "industrial growth",
+        1
+      ],
+      [
+        "influence investment",
+        1
+      ],
+      [
+        "investment and",
+        1
+      ],
+      [
+        "investment companies",
+        1
+      ],
+      [
+        "investment firms",
+        1
+      ],
+      [
+        "investment opportunities",
+        1
+      ],
+      [
+        "investment regulation",
+        1
+      ],
+      [
+        "investment supports",
+        1
+      ],
+      [
+        "invests in",
+        1
+      ],
+      [
+        "leaders discuss",
+        1
+      ],
+      [
+        "local authorities",
+        1
+      ],
+      [
+        "may increase",
+        1
+      ],
+      [
+        "on exports",
+        1
+      ],
+      [
+        "outlook climate",
+        1
+      ],
+      [
+        "policy encourages",
+        1
+      ],
+      [
+        "policy requires",
+        1
+      ],
+      [
+        "policy should",
+        1
+      ],
+      [
+        "policy supports",
+        1
+      ],
+      [
+        "prices influence",
+        1
+      ],
+      [
+        "private investment",
+        1
+      ],
+      [
+        "protects vulnerable",
+        1
+      ],
+      [
+        "public support",
+        1
+      ],
+      [
+        "reduces emissions",
+        1
+      ],
+      [
+        "regulation affects",
+        1
+      ],
+      [
+        "regulation may",
+        1
+      ],
+      [
+        "renewable energy",
+        1
+      ],
+      [
+        "requires public",
+        1
+      ],
+      [
+        "residents demand",
+        1
+      ],
+      [
+        "rivers and",
+        1
+      ],
+      [
+        "should support",
+        1
+      ],
+      [
+        "support adaptation",
+        1
+      ],
+      [
+        "support climate",
+        1
+      ],
+      [
+        "support growth",
+        1
+      ],
+      [
+        "supports electric",
+        1
+      ],
+      [
+        "supports public",
+        1
+      ],
+      [
+        "tax policy",
+        1
+      ],
+      [
+        "the outlook",
+        1
+      ],
+      [
+        "threatens coastal",
+        1
+      ],
+      [
+        "transport climate",
+        1
+      ],
+      [
+        "transport contracts",
+        1
+      ],
+      [
+        "transport improves",
+        1
+      ],
+      [
+        "vulnerable communities",
+        1
+      ]
+    ],
+    "neighbours": [
+      [
+        "policy",
+        6
+      ],
+      [
+        "action",
+        4
+      ],
+      [
+        "public",
+        4
+      ],
+      [
+        "affects",
+        2
+      ],
+      [
+        "and",
+        2
+      ],
+      [
+        "change",
+        2
+      ],
+      [
+        "communities",
+        2
+      ],
+      [
+        "discuss",
+        2
+      ],
+      [
+        "investment",
+        2
+      ],
+      [
+        "requires",
+        2
+      ],
+      [
+        "support",
+        2
+      ],
+      [
+        "supports",
+        2
+      ],
+      [
+        "assess",
+        1
+      ],
+      [
+        "clean",
+        1
+      ],
+      [
+        "coastal",
+        1
+      ],
+      [
+        "companies",
+        1
+      ],
+      [
+        "costs",
+        1
+      ],
+      [
+        "creates",
+        1
+      ],
+      [
+        "demand",
+        1
+      ],
+      [
+        "dominate",
+        1
+      ],
+      [
+        "emissions",
+        1
+      ],
+      [
+        "encourages",
+        1
+      ],
+      [
+        "energy",
+        1
+      ],
+      [
+        "growth",
+        1
+      ],
+      [
+        "justice",
+        1
+      ],
+      [
+        "outlook",
+        1
+      ],
+      [
+        "protects",
+        1
+      ],
+      [
+        "reduces",
+        1
+      ],
+      [
+        "regulation",
+        1
+      ],
+      [
+        "residents",
+        1
+      ],
+      [
+        "risk",
+        1
+      ],
+      [
+        "rivers",
+        1
+      ],
+      [
+        "should",
+        1
+      ],
+      [
+        "the",
+        1
+      ],
+      [
+        "threatens",
+        1
+      ],
+      [
+        "transport",
+        1
+      ],
+      [
+        "vulnerable",
+        1
+      ]
+    ],
+    "comparison": {
+      "totals": [
+        57,
+        64
+      ],
+      "rows": [
+        {
+          "word": "climate",
+          "counts": [
+            8,
+            4
+          ],
+          "rates": [
+            140.35087719298244,
+            62.5
+          ]
+        }
+      ]
+    }
+  },
+  "lv": {
+    "tokens": 113,
+    "kwic": 11,
+    "bigrams": [
+      [
+        "klimata politika",
+        4
+      ],
+      [
+        "klimata pārmaiņas",
+        2
+      ],
+      [
+        "politika veicina",
+        2
+      ],
+      [
+        "politiku un",
+        2
+      ],
+      [
+        "aizsargā kopienas",
+        1
+      ],
+      [
+        "apdraud piekrasti",
+        1
+      ],
+      [
+        "apspriež emisiju",
+        1
+      ],
+      [
+        "apspriež klimata",
+        1
+      ],
+      [
+        "apspriež nodokļu",
+        1
+      ],
+      [
+        "atbalsta plūdu",
+        1
+      ],
+      [
+        "atbalsta reģionu",
+        1
+      ],
+      [
+        "atbalsta sabiedrisko",
+        1
+      ],
+      [
+        "atbalstu rīcība",
+        1
+      ],
+      [
+        "atjaunīgā enerģija",
+        1
+      ],
+      [
+        "atkarīga no",
+        1
+      ],
+      [
+        "cenas ietekmē",
+        1
+      ],
+      [
+        "ekonomikas perspektīvas",
+        1
+      ],
+      [
+        "eksporta uzņēmumi",
+        1
+      ],
+      [
+        "emisijas klimata",
+        1
+      ],
+      [
+        "emisiju tirdzniecību",
+        1
+      ],
+      [
+        "enerģija mazina",
+        1
+      ],
+      [
+        "enerģijas cenas",
+        1
+      ],
+      [
+        "gaisa kvalitāti",
+        1
+      ],
+      [
+        "iedzīvotāji prasa",
+        1
+      ],
+      [
+        "iegulda sabiedriskajā",
+        1
+      ],
+      [
+        "ietekmē investīcijas",
+        1
+      ],
+      [
+        "ietekmē izmaksas",
+        1
+      ],
+      [
+        "ietekmē upes",
+        1
+      ],
+      [
+        "investīcijas atbalsta",
+        1
+      ],
+      [
+        "investīcijas regulējums",
+        1
+      ],
+      [
+        "investīcijas un",
+        1
+      ],
+      [
+        "investīcijas uzņēmumi",
+        1
+      ],
+      [
+        "investīciju iespējas",
+        1
+      ],
+      [
+        "ir atkarīga",
+        1
+      ],
+      [
+        "izaugsme ir",
+        1
+      ],
+      [
+        "izaugsme nosaka",
+        1
+      ],
+      [
+        "izaugsmi klimata",
+        1
+      ],
+      [
+        "izaugsmi un",
+        1
+      ],
+      [
+        "jomā kopienas",
+        1
+      ],
+      [
+        "klimata jomā",
+        1
+      ],
+      [
+        "klimata politiku",
+        1
+      ],
+      [
+        "klimata regulējums",
+        1
+      ],
+      [
+        "klimata rīcība",
+        1
+      ],
+      [
+        "klimata taisnīgumu",
+        1
+      ],
+      [
+        "kopienas apspriež",
+        1
+      ],
+      [
+        "laukus pašvaldības",
+        1
+      ],
+      [
+        "līgumus privātās",
+        1
+      ],
+      [
+        "mazina emisijas",
+        1
+      ],
+      [
+        "no eksporta",
+        1
+      ],
+      [
+        "nodokļu politiku",
+        1
+      ],
+      [
+        "nosaka ekonomikas",
+        1
+      ],
+      [
+        "palielināt izmaksas",
+        1
+      ],
+      [
+        "pašvaldības atbalsta",
+        1
+      ],
+      [
+        "perspektīvas klimata",
+        1
+      ],
+      [
+        "pilsēta iegulda",
+        1
+      ],
+      [
+        "pilsēta slēdz",
+        1
+      ],
+      [
+        "plūdu novēršanu",
+        1
+      ],
+      [
+        "politika atbalsta",
+        1
+      ],
+      [
+        "politika prasa",
+        1
+      ],
+      [
+        "prasa rīcību",
+        1
+      ],
+      [
+        "prasa sabiedrības",
+        1
+      ],
+      [
+        "privātās investīcijas",
+        1
+      ],
+      [
+        "pārmaiņas apdraud",
+        1
+      ],
+      [
+        "pārmaiņas ietekmē",
+        1
+      ],
+      [
+        "rada investīciju",
+        1
+      ],
+      [
+        "regulējums ietekmē",
+        1
+      ],
+      [
+        "regulējums var",
+        1
+      ],
+      [
+        "reģionu izaugsmi",
+        1
+      ],
+      [
+        "rīcība aizsargā",
+        1
+      ],
+      [
+        "rīcība rada",
+        1
+      ],
+      [
+        "rīcību klimata",
+        1
+      ],
+      [
+        "rūpniecības izaugsme",
+        1
+      ],
+      [
+        "sabiedriskajā transportā",
+        1
+      ],
+      [
+        "sabiedrisko transportu",
+        1
+      ],
+      [
+        "sabiedrības atbalstu",
+        1
+      ],
+      [
+        "slēdz transporta",
+        1
+      ],
+      [
+        "tas uzlabo",
+        1
+      ],
+      [
+        "transporta līgumus",
+        1
+      ],
+      [
+        "transportu klimata",
+        1
+      ],
+      [
+        "transportā tas",
+        1
+      ],
+      [
+        "tīru enerģiju",
+        1
+      ],
+      [
+        "un investīcijas",
+        1
+      ],
+      [
+        "un izaugsme",
+        1
+      ],
+      [
+        "un izaugsmi",
+        1
+      ],
+      [
+        "un laukus",
+        1
+      ],
+      [
+        "un risku",
+        1
+      ],
+      [
+        "upes un",
+        1
+      ],
+      [
+        "uzlabo gaisa",
+        1
+      ],
+      [
+        "uzņēmumi apspriež",
+        1
+      ],
+      [
+        "uzņēmumi vērtē",
+        1
+      ],
+      [
+        "uzņēmēji apspriež",
+        1
+      ],
+      [
+        "var palielināt",
+        1
+      ],
+      [
+        "veicina izaugsmi",
+        1
+      ],
+      [
+        "veicina tīru",
+        1
+      ],
+      [
+        "vērtē klimata",
+        1
+      ]
+    ],
+    "neighbours": [
+      [
+        "politika",
+        4
+      ],
+      [
+        "apspriež",
+        2
+      ],
+      [
+        "atbalsta",
+        2
+      ],
+      [
+        "ietekmē",
+        2
+      ],
+      [
+        "izaugsmi",
+        2
+      ],
+      [
+        "jomā",
+        2
+      ],
+      [
+        "kopienas",
+        2
+      ],
+      [
+        "politiku",
+        2
+      ],
+      [
+        "prasa",
+        2
+      ],
+      [
+        "pārmaiņas",
+        2
+      ],
+      [
+        "sabiedrisko",
+        2
+      ],
+      [
+        "un",
+        2
+      ],
+      [
+        "veicina",
+        2
+      ],
+      [
+        "apdraud",
+        1
+      ],
+      [
+        "ekonomikas",
+        1
+      ],
+      [
+        "emisijas",
+        1
+      ],
+      [
+        "enerģija",
+        1
+      ],
+      [
+        "iedzīvotāji",
+        1
+      ],
+      [
+        "investīcijas",
+        1
+      ],
+      [
+        "investīciju",
+        1
+      ],
+      [
+        "izmaksas",
+        1
+      ],
+      [
+        "mazina",
+        1
+      ],
+      [
+        "nosaka",
+        1
+      ],
+      [
+        "perspektīvas",
+        1
+      ],
+      [
+        "piekrasti",
+        1
+      ],
+      [
+        "rada",
+        1
+      ],
+      [
+        "regulējums",
+        1
+      ],
+      [
+        "risku",
+        1
+      ],
+      [
+        "rīcība",
+        1
+      ],
+      [
+        "rīcību",
+        1
+      ],
+      [
+        "sabiedrības",
+        1
+      ],
+      [
+        "taisnīgumu",
+        1
+      ],
+      [
+        "transportu",
+        1
+      ],
+      [
+        "tīru",
+        1
+      ],
+      [
+        "upes",
+        1
+      ],
+      [
+        "uzņēmumi",
+        1
+      ],
+      [
+        "vērtē",
+        1
+      ]
+    ],
+    "comparison": {
+      "totals": [
+        53,
+        60
+      ],
+      "rows": [
+        {
+          "word": "klimata",
+          "counts": [
+            7,
+            4
+          ],
+          "rates": [
+            132.0754716981132,
+            66.66666666666667
+          ]
+        }
+      ]
+    }
+  }
+}

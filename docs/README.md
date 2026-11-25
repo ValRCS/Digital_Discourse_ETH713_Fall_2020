@@ -17,9 +17,9 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 ## Structure and status
 
 - index.html: course landing page and technical lesson index.
-- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01, 02, 04 and 05 are full interactive lessons; four others are outlines.
+- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01, 02, 04, 05 and 06 are full interactive lessons; three others are outlines.
 - assets/css/: responsive shared design and print styles.
-- assets/js/: shared theme, local progress, code copying and formative quizzes. Weeks 01, 02, 04 and 05 use dedicated JavaScript and CSS.
+- assets/js/: shared theme, local progress, code copying and formative quizzes. Weeks 01, 02, 04, 05 and 06 use dedicated JavaScript and CSS.
 - assets/img/: local SVG course and Week 05 illustrations and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
 - resources/: notebook links, getting started, research workflow.
 - datasets/: catalogue of existing source files, with provenance notes.
@@ -67,3 +67,7 @@ A 90-minute core at `lessons/01-python-introduction/` covers eight sections and 
 ## Week 02 Version 1 · 25 November 2026
 
 90-minute core, six JavaScript browser laboratories, 12 formative questions, troubleshooting and eight optional topics. The new `Using_Libraries_and_Notebooks_2026.ipynb` is self-contained and uses only the standard library; historical notebooks remain unchanged. Browser demos do not execute Python; Markdown preview is deliberately limited and filesystem simulation excludes symlinks/permissions. Run `python scripts/check_docs.py`, `node --check docs/assets/js/week02-notebooks.js`, `node scripts/test_week02.js`, `python scripts/test_week02_python.py`. Also restart and run all in Jupyter/Colab and smoke-test six labs, copy, quiz, theme, keyboard and narrow screens. The Python script executes code cells, not an actual graphical notebook kernel. Temporary notebook files are isolated and removable; no live network or package installation is required.
+
+## Week 06 Version 1 · 25 November 2026
+
+90-minute corpus analysis lesson with seven labs, 24 synthetic multilingual documents, 12 formative quizzes, six Python examples, glossary and research exercise. Shared filters apply to the corpus, KWIC, n-grams and neighbours; comparison includes both sources. Tokenization uses Unicode NFC and letter/mark/number runs. JS models do not execute Python. Notebook companion is deferred; teaching date 2 December is provisional. Run `python scripts/check_docs.py`, `node --check docs/assets/js/week06-corpus-model.js`, `node --check docs/assets/js/week06-corpus-analysis.js`, `node scripts/test_week06.js`, and `python scripts/test_week06_python.py`. Browser smoke test: serve via HTTP; test language and metadata filters, preprocessing, zero denominators, KWIC expansion, boundaries, co-occurrences, comparison, both themes, small screens and keyboard.
