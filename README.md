@@ -3,6 +3,14 @@
 * Digital_Discourse_ETH713_Fall_2021 at RTU 
 * Digital_Discourse_ETH713_Fall_2022 at RTU 
 
+## 2026 technical teaching sequence — DE0823 (legacy ETH713)
+
+| Technical week | Notebook | Colab |
+|---|---|---|
+| 3 · 4 November | [Text processing](TextProcessing/CountingWords_2026.ipynb) | [Open](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/TextProcessing/CountingWords_2026.ipynb) |
+| 4 · 11 November | [JSON APIs](JSON_APIs/Using_JSON_APIs_2026.ipynb) | [Open](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/JSON_APIs/Using_JSON_APIs_2026.ipynb) |
+| 5 · 25 November | [Web scraping](WebScraping/Web_Scraping_2026.ipynb) · [resources](WebScraping/README.md) | [Open](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/WebScraping/Web_Scraping_2026.ipynb) |
+
 ## Tools
 
 ### Local Installations
