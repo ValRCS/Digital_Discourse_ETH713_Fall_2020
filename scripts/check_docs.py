@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import sys
+import json
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
@@ -84,6 +85,18 @@ def main():
         published = DOCS / "datasets" / "web-scraping" / f"sample_{name}.html.txt"
         if not published.is_file() or not canonical.is_file() or published.read_bytes() != canonical.read_bytes():
             problems.append(f"Week 05 fixture mismatch: {name}")
+    archive = DOCS / "playground" / "dynamic-archive"
+    for name in ("index.html", "archive.js", "archive.css", "archive.json", "README.md"):
+        if not (archive / name).is_file():
+            problems.append(f"Missing dynamic archive resource: {name}")
+    try:
+        records = json.loads((archive / "archive.json").read_text(encoding="utf-8"))
+        if len(records) != 9 or len({r["id"] for r in records}) != 9:
+            problems.append("Dynamic archive must contain nine unique records")
+        if not all(set(r) == {"id", "title", "year", "category"} for r in records):
+            problems.append("Unexpected archive schema")
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        problems.append(f"Invalid archive fixture: {exc}")
     if not pages:
         problems.append("No HTML pages found")
     print(f"Checked {len(pages)} HTML pages and {checked} local/canonical references.")

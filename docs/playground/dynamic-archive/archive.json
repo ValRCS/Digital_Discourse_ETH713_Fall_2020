@@ -1,0 +1,56 @@
+[
+  {
+    "id": "A001",
+    "title": "Digitālās humanitārās zinātnes Rīgā",
+    "year": 2024,
+    "category": "Research"
+  },
+  {
+    "id": "A002",
+    "title": "Bibliotēka un valoda",
+    "year": 2025,
+    "category": "Culture"
+  },
+  {
+    "id": "A003",
+    "title": "Latvijas periodikas digitalizācija",
+    "year": 2023,
+    "category": "Archives"
+  },
+  {
+    "id": "A004",
+    "title": "Digitālās kolekcijas un pētniecība",
+    "year": 2026,
+    "category": "Research"
+  },
+  {
+    "id": "A005",
+    "title": "Rīgas kultūras mantojums",
+    "year": 2025,
+    "category": "Culture"
+  },
+  {
+    "id": "A006",
+    "title": "Vēsturisko tekstu korpusi",
+    "year": 2024,
+    "category": "Research"
+  },
+  {
+    "id": "A007",
+    "title": "Latviešu valodas digitālie resursi",
+    "year": 2026,
+    "category": "Language"
+  },
+  {
+    "id": "A008",
+    "title": "Digitālais arhīvs un sabiedrība",
+    "year": 2023,
+    "category": "Archives"
+  },
+  {
+    "id": "A009",
+    "title": "Daudzvalodība Latvijas presē",
+    "year": 2025,
+    "category": "Language"
+  }
+]

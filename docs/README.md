@@ -23,7 +23,7 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 - assets/img/: local SVG course and Week 05 illustrations and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
 - resources/: notebook links, getting started, research workflow.
 - datasets/: catalogue of existing source files, with provenance notes.
-- playground/: roadmap; no analytical tools released yet.
+- playground/: dynamic archive sandbox available; other tools planned.
 
 Technical weeks 3–5 correspond to the repository's confirmed 2026 schedule (4, 11 and 25 November). Weeks 1–2 are foundation outlines; weeks 6–8 and project timing are provisional. Original notebooks remain canonical executable Python materials. JavaScript demos must not be described as Python execution; formal assessment remains in Moodle.
 
@@ -50,3 +50,7 @@ Three exact .html.txt browser fixtures are in datasets/web-scraping/. Run `pytho
 The permanent lesson URL now includes an HTML/CSS/JavaScript refresher, Beautiful Soup object and parser reference, richer CSS selector and combinator labs, whitespace model, redesign simulator, dynamic DOM demo, Developer Tools exercise and glossary. Core lecture remains 90 minutes; expandable reference material is optional. A fourth fixture `sample_nested_articles.html` is mirrored byte-for-byte under `docs/datasets/web-scraping/`. Browser DOM exercises execute JavaScript; Python object and whitespace examples are illustrative. Original three fixtures, record extraction, table and corpus labs remain unchanged. Verify `python scripts/check_docs.py`, `node --check docs/assets/js/week05-technologies.js`, `node --check docs/assets/js/week05-web-scraping.js`, `node scripts/test_week05.js`; smoke-test both fixture choices, combinators, redraw, toggles and all V1 labs in a browser.
 
 Optional Python-level regression test: `python scripts/test_week05_bs4.py` (requires beautifulsoup4). Checks nested-fixture selectors, actual object types and whitespace combinations; attributes may be dict or a subclass depending on library version.
+
+## Week 05 Version 3 · 25 November 2026
+
+Optional 30–45 minute Selenium bonus after core practice, dynamic archive at playground/dynamic-archive/ and Selenium_2026.ipynb. Genuine same-origin JSON fetch, nine synthetic records, batches of three. No external service needed to serve docs. Python requires Selenium 4, Beautiful Soup, Requests and compatible browser/driver. Colab is environment dependent. Verify with python scripts/check_docs.py, node --check docs/playground/dynamic-archive/archive.js, node --check docs/assets/js/week05-selenium.js, node scripts/test_week05_v3.js and python scripts/test_week05_selenium.py (local HTTP server and Selenium). See sandbox README for stable selectors and provenance.

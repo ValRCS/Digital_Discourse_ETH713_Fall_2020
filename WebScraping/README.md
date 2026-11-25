@@ -10,6 +10,12 @@ Prerequisites: Python strings, lists/dicts, JSON, HTTP, and word frequencies. Se
 
 The default run is offline after dependencies are installed (`requests beautifulsoup4 pandas lxml`). All three synthetic fixtures are embedded in the notebook and also available under [fixtures/](fixtures/). They are invented examples, not empirical observations. Optional single-page live mode uses Quotes to Scrape and explicitly labels any fallback. No SS.com live request is required. Outputs go to `outputs/web_scraping_2026/`.
 
+## Optional browser automation · Version 3
+
+[Selenium_2026.ipynb](Selenium_2026.ipynb) · [Colab](https://colab.research.google.com/github/ValRCS/Digital_Discourse_ETH713_Fall_2020/blob/main/WebScraping/Selenium_2026.ipynb) · [Dynamic archive sandbox](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/playground/dynamic-archive/index.html) · [Bonus lesson](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/05-web-scraping/#selenium-bonus).
+
+Selenium 4 workflow with explicit waits, cleanup, direct and hybrid extraction, JSON comparison and exports. Local compatible browser/driver required; Colab compatibility is not guaranteed. Set ARCHIVE_URL for a local server. The archive is synthetic and public for bounded teaching practice. Historical notebook unchanged.
+
 ## Historical material (preserved)
 
 | File | Purpose |

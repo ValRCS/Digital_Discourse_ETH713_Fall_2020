@@ -1,0 +1,5 @@
+# Riga Digital Archive · synthetic Selenium practice
+
+Created 25 November 2026 for RTU DE0823. Nine invented Latvian titles, categories, years and IDs; not empirical observations. No third-party data, accounts or credentials. Teaching retrieval of archive.json and bounded browser automation of this sandbox are expressly permitted under repository terms.
+
+Contract: original HTML has zero article.archive-record elements. Load collection fetches archive.json and renders three records after a 900 ms intentional delay. Load more adds three from cached data, up to nine. Filters apply to loaded records; Unicode NFC case-insensitive substring matching is not lemmatization. Reset invalidates pending loads. Record attributes: data-id, data-year, data-category, title in h2. Stable IDs: load-collection, load-more, archive-search, archive-category, archive-reset, archive-results, archive-status (data-state idle/loading/ready/error, data-loaded and data-visible). Serve over HTTP, not file://. Direct JSON is simpler when no interaction is needed.
