@@ -3,6 +3,12 @@
 * Digital_Discourse_ETH713_Fall_2021 at RTU 
 * Digital_Discourse_ETH713_Fall_2022 at RTU 
 
+## Interactive course website — DE0823
+
+[GitHub Pages course companion](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/) (requires Pages activation) · [Website source and maintenance instructions](docs/README.md).
+
+The static website provides lesson outlines, resource links and a playground roadmap. The notebooks below remain the executable teaching materials.
+
 ## 2026 technical teaching sequence — DE0823 (legacy ETH713)
 
 | Technical week | Notebook | Colab |
