@@ -79,6 +79,11 @@ def main():
                 problems.append(f"{path}: broken or escaping link {link}")
             elif u.fragment and target in pages and unquote(u.fragment) not in pages[target].ids:
                 problems.append(f"{path}: missing anchor {link}")
+    for name in ("articles", "quotes", "table"):
+        canonical = ROOT / "WebScraping" / "fixtures" / f"sample_{name}.html"
+        published = DOCS / "datasets" / "web-scraping" / f"sample_{name}.html.txt"
+        if not published.is_file() or not canonical.is_file() or published.read_bytes() != canonical.read_bytes():
+            problems.append(f"Week 05 fixture mismatch: {name}")
     if not pages:
         problems.append("No HTML pages found")
     print(f"Checked {len(pages)} HTML pages and {checked} local/canonical references.")

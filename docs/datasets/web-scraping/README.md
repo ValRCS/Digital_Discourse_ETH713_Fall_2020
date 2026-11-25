@@ -1,0 +1,3 @@
+# Week 05 browser fixtures
+
+Exact copies of the canonical WebScraping/fixtures/sample_*.html files, served as .html.txt so they are not interpreted as course pages. Created for DE0823 teaching, 25 November 2026. Latvian articles/listings and English invented quotations. No real observations, actual authorship claims or current prices. No live retrieval timestamp. Repository terms apply; no separate third-party license asserted. `python scripts/check_docs.py` checks byte equality.

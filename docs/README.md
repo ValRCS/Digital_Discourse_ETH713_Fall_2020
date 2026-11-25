@@ -17,10 +17,10 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 ## Structure and status
 
 - index.html: course landing page and technical lesson index.
-- lessons/01-... through 08-...: permanent, year-independent lesson URLs; all eight are outlines in this release.
+- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Week 05 is a full interactive lesson; seven others are outlines.
 - assets/css/: responsive shared design and print styles.
-- assets/js/: shared theme, local progress, code copying and formative quizzes. Lesson-specific scripts can be added later.
-- assets/img/: local SVG course illustration and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
+- assets/js/: shared theme, local progress, code copying and formative quizzes. Week 05 uses dedicated JavaScript and CSS.
+- assets/img/: local SVG course and Week 05 illustrations and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
 - resources/: notebook links, getting started, research workflow.
 - datasets/: catalogue of existing source files, with provenance notes.
 - playground/: roadmap; no analytical tools released yet.
@@ -40,3 +40,7 @@ Shared JS conventions: data-progress attributes must have unique stable lesson-p
 Before release run `python scripts/check_docs.py` from the repository root. It verifies HTML parsing, duplicate IDs, local links and anchors, project-relative paths, repository links and expected lesson skeletons. For JavaScript syntax, use `node --check docs/assets/js/main.js` and `node --check docs/assets/js/exercises.js` when Node is available (not required to serve).
 
 Manual smoke test: serve locally; navigate all lessons and resource pages; try theme switching, reload persistence, checklist, clipboard and quiz feedback; inspect at mobile and desktop widths and navigate by keyboard. Verify the deployed URL after Pages activation. Local progress is personal, device/browser-specific and not an assessment record.
+
+## Week 05 verification
+
+Three exact .html.txt browser fixtures are in datasets/web-scraping/. Run `python scripts/check_docs.py`, `node --check docs/assets/js/week05-web-scraping.js` and `node scripts/test_week05.js`. Serve over HTTP and smoke-test format switching, tree, selectors, record rules and downloads, HTTP, tables, corpus, quizzes, theme and mobile layout. Browser demonstrations do not execute Python. Default: 5 blocks, 4 retained, 1 skipped.
