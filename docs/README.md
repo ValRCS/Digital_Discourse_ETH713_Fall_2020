@@ -17,13 +17,13 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 ## Structure and status
 
 - index.html: course landing page and technical lesson index.
-- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01, 02, 04, 05, 06 and 07 are full interactive lessons; two others are outlines.
+- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01–07 are full interactive lessons; Week 08 remains an outline.
 - assets/css/: responsive shared design and print styles.
-- assets/js/: shared theme, local progress, code copying and formative quizzes. Weeks 01, 02, 04, 05, 06 and 07 use dedicated JavaScript and CSS.
+- assets/js/: shared theme, local progress, code copying and formative quizzes. Weeks 01–07 use dedicated JavaScript and CSS.
 - assets/img/: local SVG course and Week 05 illustrations and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
 - resources/: notebook links, getting started, research workflow.
 - datasets/: catalogue of existing source files, with provenance notes.
-- playground/: dynamic archive sandbox available; other tools planned.
+- playground/: dynamic archive sandbox and Week 03 word frequency explorer available; other standalone tools planned.
 
 Technical weeks 3–5 correspond to the repository's confirmed 2026 schedule (4, 11 and 25 November). Weeks 1–2 are full foundational lessons; weeks 6–8 and project timing are provisional. Original notebooks remain canonical executable Python materials. JavaScript demos must not be described as Python execution; formal assessment remains in Moodle.
 
@@ -76,3 +76,6 @@ A 90-minute core at `lessons/01-python-introduction/` covers eight sections and 
 ## Week 07 Version 1 · 25 November 2026
 
 90-minute core and optional multilingual/LLM extensions; eight laboratories (six core, two optional), 48 synthetic annotated documents, two editable instructional lexicons, 12 formative questions, six practical exercises, glossary and exportable research results. Four reference classes (positive, neutral, negative, mixed); unclear is an abstention column included in accuracy denominators. Browser JavaScript is deterministic and not Python/VADER/LLM inference. Dedicated notebook deferred; existing OpenAI/OpenAI.ipynb linked as historical 2025 material. Proposed date 9 December. Verify with `python scripts/check_docs.py`, `node --check docs/assets/js/week07-sentiment-model.js`, `node --check docs/assets/js/week07-sentiment-analysis.js`, `node scripts/test_week07.js`, `python scripts/test_week07_python.py`. Serve over HTTP and manually smoke-test all eight labs, invalid/empty input, local fixture loading, filters, download, mobile, keyboard, themes, quiz and clipboard. Optional VADER and corpus-upload snippets have external setup and are excluded from offline Python tests.
+## Week 03 Version 1 · 25 November 2026
+
+90-minute core with six labs (Unicode, boundaries, tokenization, dictionary counting, frequency explorer, relative counts), 12 formative quizzes, five Python exercises, eight optional reference topics, research exercise and local progress. The canonical CountingWords_2026 notebook is unchanged. Local excerpts and synthetic examples have pinned source ranges and provenance. Browser uses JavaScript NFC, lowercasing and Unicode letter runs (not exact Python casefold or regex parity). Filtered rates use the original token denominator; all/filtered TSV and settings JSON are downloadable. Verify `python scripts/check_docs.py`, `node --check docs/assets/js/week03-text-model.js`, `node --check docs/assets/js/week03-text-processing.js`, `node scripts/test_week03.js`, `node scripts/test_week03_ui.js`, `python scripts/test_week03_python.py`. Serve over HTTP; smoke-test real browser sample loading, six labs, exports, copy, quizzes, theme, keyboard and small screens. The UI tests use a simulated DOM, not a graphical browser. The notebook's Colab-specific download cell remains unchanged.

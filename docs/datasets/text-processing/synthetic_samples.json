@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "source_revision": "ec695c4f2816746963be12f55c9e666ba9fb8073",
+  "records": [
+    {
+      "id": "alice",
+      "title": "Alice's Adventures in Wonderland — opening excerpt",
+      "language": "en",
+      "source": "data/Alice_Wonderland.txt",
+      "source_blob": "74bbf1a1f64465e64270461b8ad38830a5def19f",
+      "segments": [
+        {
+          "kind": "header",
+          "label": "Selected front matter",
+          "lines": [
+            1,
+            1
+          ],
+          "text": "﻿The Project Gutenberg EBook of Alice’s Adventures in Wonderland, by Lewis Carroll"
+        },
+        {
+          "kind": "header",
+          "label": "Edition information",
+          "lines": [
+            10,
+            19
+          ],
+          "text": "Title: Alice’s Adventures in Wonderland\n\nAuthor: Lewis Carroll\n\nRelease Date: June 25, 2008 [EBook #11]\n[Most recently updated: October 12, 2020]\n\nLanguage: English\n\nCharacter set encoding: UTF-8"
+        },
+        {
+          "kind": "body",
+          "label": "Chapter I opening",
+          "lines": [
+            56,
+            70
+          ],
+          "text": "CHAPTER I.\nDown the Rabbit-Hole\n\n\nAlice was beginning to get very tired of sitting by her sister on the\nbank, and of having nothing to do: once or twice she had peeped into\nthe book her sister was reading, but it had no pictures or\nconversations in it, “and what is the use of a book,” thought Alice\n“without pictures or conversations?”\n\nSo she was considering in her own mind (as well as she could, for the\nhot day made her feel very sleepy and stupid), whether the pleasure of\nmaking a daisy-chain would be worth the trouble of getting up and\npicking the daisies, when suddenly a White Rabbit with pink eyes ran\nclose by her."
+        },
+        {
+          "kind": "footer",
+          "label": "End marker and selected footer lines",
+          "lines": [
+            3406,
+            3413
+          ],
+          "text": "THE END \n\n\n\n\nEnd of Project Gutenberg’s Alice’s Adventures in Wonderland, by Lewis Carroll\n\n*** END OF THIS PROJECT GUTENBERG EBOOK ALICE’S ADVENTURES IN WONDERLAND ***"
+        }
+      ]
+    },
+    {
+      "id": "veidenbaums",
+      "title": "Pēc ideāliem cenšas lielie gari — poem",
+      "language": "lv",
+      "source": "data/Veidenbaums.txt",
+      "source_blob": "bd54305f33cb04d6e6fef7ef9e6d841ce680b583",
+      "segments": [
+        {
+          "kind": "title",
+          "label": "Marked poem heading",
+          "lines": [
+            3,
+            7
+          ],
+          "text": "Pēc ideāliem cenšas lielie gari***\n\n\n\n"
+        },
+        {
+          "kind": "body",
+          "label": "Poem body",
+          "lines": [
+            8,
+            14
+          ],
+          "text": "Pēc ideāliem cenšas lielie gari,\n\nBet dzīvē ieņemt vietu pirmie\n\nTie neiespēj, tos nomāc maizes kari,\n\nTos nomāc aizspriedumi sirmie."
+        }
+      ]
+    }
+  ],
+  "synthetic": [
+    {
+      "id": "synthetic-en",
+      "language": "en",
+      "title": "Invented English archive example",
+      "text": "The digital archive contains historical texts. The texts reveal the history of the city. Digital research makes the archive accessible. The city has a rich history. Research reveals new perspectives on history."
+    },
+    {
+      "id": "synthetic-lv",
+      "language": "lv",
+      "title": "Invented Latvian archive example",
+      "text": "Rīgā ir digitāls arhīvs. Arhīvs glabā tekstus, un teksti stāsta par Rīgu. Mēs pētām pilsētas vēsturi. Rīga ir pilsēta ar bagātu vēsturi."
+    }
+  ]
+}

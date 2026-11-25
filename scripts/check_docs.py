@@ -118,6 +118,19 @@ def main():
         json.loads((corpus_folder / "expected_results.json").read_text(encoding="utf-8"))
     except (OSError, ValueError, TypeError, KeyError) as exc:
         problems.append(f"Invalid Week 06 fixture: {exc}")
+    text_folder = DOCS / "datasets" / "text-processing"
+    try:
+        text_data = json.loads((text_folder / "synthetic_samples.json").read_text(encoding="utf-8"))
+        if {r["id"] for r in text_data["records"]} != {"alice", "veidenbaums"} or len(text_data["synthetic"]) != 2:
+            problems.append("Week 03 sample schema mismatch")
+        for r in text_data["records"]:
+            body = "\n".join(s["text"] for s in r["segments"] if s["kind"] == "body")
+            if (text_folder / (r["id"] + "_excerpt.txt")).read_text(encoding="utf-8") != body + "\n":
+                problems.append(f"Week 03 excerpt mismatch: {r['id']}")
+        if not text_data["source_revision"]:
+            problems.append("Week 03 source revision missing")
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        problems.append(f"Invalid Week 03 fixture: {exc}")
     if not pages:
         problems.append("No HTML pages found")
     print(f"Checked {len(pages)} HTML pages and {checked} local/canonical references.")

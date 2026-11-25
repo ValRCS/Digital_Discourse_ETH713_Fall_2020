@@ -8,6 +8,8 @@
 
 In Colab, select **Runtime → Run all**, or execute cells sequentially during the lecture. The notebook downloads its two source files, works in the temporary Colab directory, and does **not** require Google Drive mounting, API keys, or manual uploads. The notebook uses Python's standard library and Matplotlib (available in standard Colab).
 
+**[Interactive Week 03 companion](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/03-text-processing/index.html)** — six browser laboratories, formative practice and short [source-labelled excerpts](../docs/datasets/text-processing/README.md). Browser JavaScript approximates the Python tokenizer; the notebook is canonical for full-corpus results.
+
 ### What the demonstration covers
 
 1. Downloading and inspecting corpus files with `urllib` and `pathlib`.
