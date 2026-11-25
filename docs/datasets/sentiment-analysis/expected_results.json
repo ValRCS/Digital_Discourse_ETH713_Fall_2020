@@ -1,0 +1,450 @@
+{
+  "cases": [
+    {
+      "text": "good",
+      "lang": "en",
+      "options": {},
+      "net": 2,
+      "label": "positive"
+    },
+    {
+      "text": "not good",
+      "lang": "en",
+      "options": {},
+      "net": 2,
+      "label": "positive"
+    },
+    {
+      "text": "not good",
+      "lang": "en",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": -2,
+      "label": "negative"
+    },
+    {
+      "text": "not very good",
+      "lang": "en",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": -3,
+      "label": "negative"
+    },
+    {
+      "text": "good!",
+      "lang": "en",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": 2.5,
+      "label": "positive"
+    },
+    {
+      "text": "not. good",
+      "lang": "en",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": 2,
+      "label": "positive"
+    },
+    {
+      "text": "good but bad",
+      "lang": "en",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": -1,
+      "label": "negative"
+    },
+    {
+      "text": "good bad",
+      "lang": "en",
+      "options": {},
+      "net": 0,
+      "label": "mixed"
+    },
+    {
+      "text": "nothing recognized",
+      "lang": "en",
+      "options": {},
+      "net": 0,
+      "label": "unclear"
+    },
+    {
+      "text": "",
+      "lang": "en",
+      "options": {},
+      "net": 0,
+      "label": "unclear"
+    },
+    {
+      "text": "nav laba",
+      "lang": "lv",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": -2,
+      "label": "negative"
+    },
+    {
+      "text": "loti labi",
+      "lang": "lv",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": 2,
+      "label": "positive"
+    },
+    {
+      "text": "ļoti labi",
+      "lang": "lv",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": 3,
+      "label": "positive"
+    },
+    {
+      "text": "laba, bet slikta",
+      "lang": "lv",
+      "options": {
+        "negation": true,
+        "intensity": true,
+        "contrast": true,
+        "punctuation": true,
+        "threshold": 0
+      },
+      "net": -1,
+      "label": "negative"
+    },
+    {
+      "text": "good good",
+      "lang": "en",
+      "options": {},
+      "net": 4,
+      "label": "positive"
+    },
+    {
+      "text": "good bad",
+      "lang": "en",
+      "options": {
+        "threshold": 2
+      },
+      "net": 0,
+      "label": "mixed"
+    }
+  ],
+  "corpusResults": {
+    "en-baseline": {
+      "matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          2,
+          0
+        ]
+      ],
+      "metrics": {
+        "total": 24,
+        "correct": 12,
+        "accuracy": 0.5,
+        "macroF1": 0.4832887700534759,
+        "abstentions": 6,
+        "perClass": [
+          {
+            "label": "positive",
+            "support": 6,
+            "precision": 0.5454545454545454,
+            "recall": 1,
+            "f1": 0.7058823529411764
+          },
+          {
+            "label": "neutral",
+            "support": 6,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          {
+            "label": "negative",
+            "support": 6,
+            "precision": 0.8,
+            "recall": 0.6666666666666666,
+            "f1": 0.7272727272727272
+          },
+          {
+            "label": "mixed",
+            "support": 6,
+            "precision": 1,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          }
+        ]
+      }
+    },
+    "en-rules": {
+      "matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          5,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          0,
+          0
+        ]
+      ],
+      "metrics": {
+        "total": 24,
+        "correct": 11,
+        "accuracy": 0.4583333333333333,
+        "macroF1": 0.3666666666666667,
+        "abstentions": 6,
+        "perClass": [
+          {
+            "label": "positive",
+            "support": 6,
+            "precision": 0.6666666666666666,
+            "recall": 1,
+            "f1": 0.8
+          },
+          {
+            "label": "neutral",
+            "support": 6,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          {
+            "label": "negative",
+            "support": 6,
+            "precision": 0.5555555555555556,
+            "recall": 0.8333333333333334,
+            "f1": 0.6666666666666667
+          },
+          {
+            "label": "mixed",
+            "support": 6,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0
+          }
+        ]
+      }
+    },
+    "lv-baseline": {
+      "matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          1,
+          0,
+          4,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          1,
+          2,
+          1
+        ]
+      ],
+      "metrics": {
+        "total": 24,
+        "correct": 12,
+        "accuracy": 0.5,
+        "macroF1": 0.5068181818181818,
+        "abstentions": 8,
+        "perClass": [
+          {
+            "label": "positive",
+            "support": 6,
+            "precision": 0.6666666666666666,
+            "recall": 1,
+            "f1": 0.8
+          },
+          {
+            "label": "neutral",
+            "support": 6,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          {
+            "label": "negative",
+            "support": 6,
+            "precision": 0.8,
+            "recall": 0.6666666666666666,
+            "f1": 0.7272727272727272
+          },
+          {
+            "label": "mixed",
+            "support": 6,
+            "precision": 1,
+            "recall": 0.3333333333333333,
+            "f1": 0.5
+          }
+        ]
+      }
+    },
+    "lv-rules": {
+      "matrix": [
+        [
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          5,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          1,
+          1
+        ]
+      ],
+      "metrics": {
+        "total": 24,
+        "correct": 12,
+        "accuracy": 0.5,
+        "macroF1": 0.4807692307692307,
+        "abstentions": 8,
+        "perClass": [
+          {
+            "label": "positive",
+            "support": 6,
+            "precision": 0.8571428571428571,
+            "recall": 1,
+            "f1": 0.923076923076923
+          },
+          {
+            "label": "neutral",
+            "support": 6,
+            "precision": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          {
+            "label": "negative",
+            "support": 6,
+            "precision": 0.625,
+            "recall": 0.8333333333333334,
+            "f1": 0.7142857142857143
+          },
+          {
+            "label": "mixed",
+            "support": 6,
+            "precision": 1,
+            "recall": 0.16666666666666666,
+            "f1": 0.2857142857142857
+          }
+        ]
+      }
+    }
+  }
+}

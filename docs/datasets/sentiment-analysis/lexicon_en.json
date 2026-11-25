@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "language": "en",
+    "source_kind": "synthetic_instructional_lexicon",
+    "created": "2026-11-25",
+    "license": "CC0-1.0",
+    "limitations": "Small exact-form illustrative dictionary; not validated or lemmatized."
+  },
+  "weights": {
+    "excellent": 3,
+    "wonderful": 3,
+    "good": 2,
+    "helpful": 1,
+    "welcome": 2,
+    "benefit": 2,
+    "benefits": 2,
+    "improves": 2,
+    "successful": 2,
+    "success": 2,
+    "love": 3,
+    "great": 3,
+    "happy": 2,
+    "affordable": 1,
+    "cleaner": 1,
+    "bad": -2,
+    "terrible": -3,
+    "disappointing": -2,
+    "awful": -3,
+    "poor": -2,
+    "hate": -3,
+    "expensive": -1,
+    "disastrous": -3,
+    "failed": -2,
+    "risk": -1,
+    "risks": -1,
+    "harm": -2,
+    "wasteful": -2,
+    "unfair": -2,
+    "delay": -1
+  }
+}

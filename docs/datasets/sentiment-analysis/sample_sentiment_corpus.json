@@ -1,0 +1,731 @@
+{
+  "metadata": {
+    "source_kind": "synthetic_fixture",
+    "created": "2026-11-25",
+    "license": "CC0-1.0",
+    "selection": "48 invented texts; six per reference label per language; three per source within each language/label.",
+    "limitations": "Fictional publications, deliberately balanced instructional labels, no independent annotation or empirical prevalence; English and Latvian are not translation pairs. Targets are broad topic hints, not span annotations."
+  },
+  "records": [
+    {
+      "id": "sentiment-001",
+      "language": "en",
+      "text": "The new transport policy is excellent and helpful.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "transport policy",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-002",
+      "language": "en",
+      "text": "The cleaner buses are a welcome benefit for residents.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "bus service",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-003",
+      "language": "en",
+      "text": "The pilot programme was successful and improves air quality.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "implementation",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-004",
+      "language": "en",
+      "text": "The grants are a good investment in affordable transport.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "grant or regulation",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-005",
+      "language": "en",
+      "text": "The new charging network is wonderful for local businesses.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "energy plan",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-006",
+      "language": "en",
+      "text": "The energy efficiency plan is great news for small firms.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "business infrastructure",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-007",
+      "language": "en",
+      "text": "The council published the transport policy on Tuesday.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "transport policy",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-008",
+      "language": "en",
+      "text": "The report lists twelve bus routes and their timetables.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "bus service",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-009",
+      "language": "en",
+      "text": "The committee will meet to discuss the draft.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "implementation",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-010",
+      "language": "en",
+      "text": "The ministry announced the amount of the grant.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "grant or regulation",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-011",
+      "language": "en",
+      "text": "The survey includes responses from twenty firms.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "energy plan",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-012",
+      "language": "en",
+      "text": "The budget document has four sections.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "business infrastructure",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-013",
+      "language": "en",
+      "text": "The transport scheme is terrible and wasteful.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "transport policy",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-014",
+      "language": "en",
+      "text": "The policy is not good for rural communities.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "bus service",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-015",
+      "language": "en",
+      "text": "Great, another delay to the bus service.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "implementation",
+        "note": "Intended irony; isolated positive wording may mislead."
+      }
+    },
+    {
+      "id": "sentiment-016",
+      "language": "en",
+      "text": "The new regulation is unfair and expensive.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "grant or regulation",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-017",
+      "language": "en",
+      "text": "The failed energy plan is a disappointing result.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "energy plan",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-018",
+      "language": "en",
+      "text": "The proposal creates a serious risk for small firms.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "business infrastructure",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-019",
+      "language": "en",
+      "text": "The bus service is good, but the tickets are expensive.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "transport policy",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-020",
+      "language": "en",
+      "text": "The policy improves air quality, although the timetable is poor.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "bus service",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-021",
+      "language": "en",
+      "text": "The cleaner buses are wonderful, but the rollout was disastrous.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "implementation",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-022",
+      "language": "en",
+      "text": "The grant is helpful, but the application process is awful.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "grant or regulation",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-023",
+      "language": "en",
+      "text": "The plan has benefits for investors and risks for workers.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "energy plan",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-024",
+      "language": "en",
+      "text": "The new infrastructure is excellent, but maintenance is terrible.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "business infrastructure",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-025",
+      "language": "lv",
+      "text": "Jaunā transporta politika ir lieliska un uzlabo gaisa kvalitāti.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "transporta politika",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-026",
+      "language": "lv",
+      "text": "Jaunie autobusi ir labs ieguvums iedzīvotājiem.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "autobusu satiksme",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-027",
+      "language": "lv",
+      "text": "Izmēģinājuma programma ir veiksmīga.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "ieviešana",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-028",
+      "language": "lv",
+      "text": "Atbalsta programma ir laba ziņa uzņēmumiem.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "atbalsts vai regulējums",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-029",
+      "language": "lv",
+      "text": "Jaunā uzlādes sistēma ir brīnišķīga.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "enerģētikas plāns",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-030",
+      "language": "lv",
+      "text": "Energoefektivitātes plāns ir izcils.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "positive",
+        "target": "uzņēmumu infrastruktūra",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-031",
+      "language": "lv",
+      "text": "Dome otrdien publicēja transporta politikas dokumentu.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "transporta politika",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-032",
+      "language": "lv",
+      "text": "Ziņojumā uzskaitīti divpadsmit autobusu maršruti.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "autobusu satiksme",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-033",
+      "language": "lv",
+      "text": "Komisija rīt apspriedīs projektu.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "ieviešana",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-034",
+      "language": "lv",
+      "text": "Ministrija paziņoja dotācijas apmēru.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "atbalsts vai regulējums",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-035",
+      "language": "lv",
+      "text": "Aptaujā piedalījās divdesmit uzņēmumi.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "enerģētikas plāns",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-036",
+      "language": "lv",
+      "text": "Budžeta dokumentam ir četras sadaļas.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "neutral",
+        "target": "uzņēmumu infrastruktūra",
+        "note": "Constructed as factual reporting without explicit evaluation."
+      }
+    },
+    {
+      "id": "sentiment-037",
+      "language": "lv",
+      "text": "Transporta programma ir briesmīga un nelietderīga.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "transporta politika",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-038",
+      "language": "lv",
+      "text": "Šī politika nav laba lauku iedzīvotājiem.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "autobusu satiksme",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-039",
+      "language": "lv",
+      "text": "Lieliski, atkal kavēšanās autobusu satiksmē.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "ieviešana",
+        "note": "Intended irony; isolated positive wording may mislead."
+      }
+    },
+    {
+      "id": "sentiment-040",
+      "language": "lv",
+      "text": "Jaunā regulējuma prasība ir netaisnīga un dārga.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "atbalsts vai regulējums",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-041",
+      "language": "lv",
+      "text": "Enerģētikas plāna neveiksme ir vilšanās.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "enerģētikas plāns",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-042",
+      "language": "lv",
+      "text": "Priekšlikums rada nopietnu risku mazajiem uzņēmumiem.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "negative",
+        "target": "uzņēmumu infrastruktūra",
+        "note": "Constructed instructional reference label; verify target and context."
+      }
+    },
+    {
+      "id": "sentiment-043",
+      "language": "lv",
+      "text": "Autobusu satiksme ir laba, bet biļete ir dārga.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "transporta politika",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-044",
+      "language": "lv",
+      "text": "Politika uzlabo gaisa kvalitāti, bet grafiks ir slikts.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2025,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "autobusu satiksme",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-045",
+      "language": "lv",
+      "text": "Jaunie autobusi ir lieliski, bet ieviešana ir briesmīga.",
+      "metadata": {
+        "source": "Environmental bulletin",
+        "year": 2024,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "ieviešana",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-046",
+      "language": "lv",
+      "text": "Atbalsta programma ir laba, bet pieteikšanās ir vilšanās.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "opinion"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "atbalsts vai regulējums",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-047",
+      "language": "lv",
+      "text": "Plāns sniedz ieguvumus, bet rada riskus darbiniekiem.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2024,
+        "genre": "news"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "enerģētikas plāns",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    },
+    {
+      "id": "sentiment-048",
+      "language": "lv",
+      "text": "Infrastruktūra ir izcila, bet uzturēšana ir slikta.",
+      "metadata": {
+        "source": "Business bulletin",
+        "year": 2025,
+        "genre": "report"
+      },
+      "annotation": {
+        "label": "mixed",
+        "target": "uzņēmumu infrastruktūra",
+        "note": "Both positive and negative evaluation are intended; aspects may differ."
+      }
+    }
+  ]
+}
