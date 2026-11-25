@@ -15,7 +15,7 @@ function v2Main(){
  ['soup.find_all("p")','[<p class="intro">Rīga</p>]','ResultSet','A list-like collection, empty if nothing matches.'],
  ['soup.select("p")','[<p class="intro">Rīga</p>]','ResultSet','CSS selector result collection in current Beautiful Soup.'],
  ['soup.find("h1")','None','NoneType','No matching element found. Check before calling a method.'],
- ['paragraph.attrs',"{'class': ['intro']}",'dict','Attribute names and values; class is represented as a list.'],
+ ['paragraph.attrs',"{'class': ['intro']}",'AttributeDict (4.14.3)','A dict subclass holding attribute names and values; older releases may return dict. The class value is a list.'],
  ['record = {"text": paragraph.get_text()}',
  "{'text': 'Rīga'}",'dict','A research record we construct, independent of the parse tree.']];
  function type(){const [expr,value,name,note]=types[Number($("bs-type-choice").value)];$("bs-type-code").textContent=expr;$("bs-type-value").textContent=value;$("bs-type-name").textContent=name;$("bs-type-note").textContent=note;}on("bs-type-choice","change",type);type();
