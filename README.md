@@ -5,9 +5,11 @@
 
 ## Interactive course website — DE0823
 
-[GitHub Pages course companion](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/) (requires Pages activation) · [Website source and maintenance instructions](docs/README.md).
+[GitHub Pages course companion](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/)  · [Website source and maintenance instructions](docs/README.md).
 
-The static website provides lesson outlines, resource links and a playground roadmap. The notebooks below remain the executable teaching materials.
+The static website provides interactive Weeks 01 and 05, additional lesson outlines, resource links and a playground roadmap. The notebooks remain the executable teaching materials.
+
+[Week 01 — Python foundations (interactive Version 1)](https://valrcs.github.io/Digital_Discourse_ETH713_Fall_2020/lessons/01-python-introduction/index.html) · [Existing introduction notebook](Python_Introduction.ipynb).
 
 ## 2026 technical teaching sequence — DE0823 (legacy ETH713)
 

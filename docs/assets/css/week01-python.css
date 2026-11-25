@@ -1,0 +1,25 @@
+/* Lesson-specific layout; inherit shared typography and themes. */
+.w01-lab { margin: 1.25rem 0; }
+.w01-lab select,.w01-lab textarea,.w01-lab input[type=text],.w01-lab input[type=range] { display:block; width:100%; max-width:100%; box-sizing:border-box; margin:.35rem 0 .8rem; font:inherit; color:inherit; }
+.w01-lab select,.w01-lab textarea,.w01-lab input[type=text] { background:transparent; border:1px solid currentColor; border-radius:.4rem; padding:.55rem; }
+.w01-output { white-space:pre-wrap; overflow-wrap:anywhere; min-height:2.5rem; }
+.w01-steps { display:flex; flex-wrap:wrap; gap:.5rem; list-style-position:inside; padding:0; }
+.w01-steps li { padding:.5rem .7rem; border:1px solid currentColor; border-radius:.35rem; }
+.w01-steps li[aria-current=step],.w01-char[data-selected=true] { outline:3px solid #2386ba; outline-offset:2px; font-weight:bold; }
+.w01-steps li[data-done=true] { opacity:.65; }
+.w01-binding { display:flex; flex-wrap:wrap; gap:1rem; align-items:center; }
+.w01-binding div { display:grid; gap:.25rem; border:1px solid currentColor; padding:1rem; border-radius:.5rem; }
+.w01-chars { display:flex; flex-wrap:wrap; gap:.5rem; margin:1rem 0; }
+.w01-char { display:grid; gap:.15rem; text-align:center; min-width:2.3rem; padding:.25rem; border:1px solid currentColor; border-radius:.25rem; }
+.w01-char small { font-size:.7rem; }
+.w01-metrics > div { border:1px solid currentColor; border-radius:.5rem; padding:.7rem; display:grid; gap:.35rem; }
+.w01-metrics strong { font-size:1.6rem; }
+.w01-token-list { overflow-wrap:anywhere; }
+.w01-frequency-row { display:grid; grid-template-columns:minmax(5rem,1fr) 3fr 2.5rem; align-items:center; gap:.5rem; margin:.35rem 0; }
+.w01-frequency-row span { overflow-wrap:anywhere; }
+.w01-frequency-row meter { width:100%; }
+.w01-glossary { display:grid; grid-template-columns:minmax(7rem,1fr) 3fr; gap:.5rem 1rem; }
+.w01-glossary dt { font-weight:700; }.w01-glossary dd { margin:0; }
+.q-option { display:block; margin:.4rem 0; }
+@media(max-width:520px){.w01-glossary{grid-template-columns:1fr}.w01-glossary dd{margin-bottom:.5rem}.w01-frequency-row{grid-template-columns:minmax(4rem,1fr) 1fr 2rem}}
+@media print{.w01-lab button,.w01-lab input[type=range],.w01-lab select{display:none}}

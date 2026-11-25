@@ -17,7 +17,7 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 ## Structure and status
 
 - index.html: course landing page and technical lesson index.
-- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Week 05 is a full interactive lesson; seven others are outlines.
+- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01 and 05 are full interactive lessons; six others are outlines.
 - assets/css/: responsive shared design and print styles.
 - assets/js/: shared theme, local progress, code copying and formative quizzes. Week 05 uses dedicated JavaScript and CSS.
 - assets/img/: local SVG course and Week 05 illustrations and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
@@ -25,7 +25,7 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 - datasets/: catalogue of existing source files, with provenance notes.
 - playground/: dynamic archive sandbox available; other tools planned.
 
-Technical weeks 3–5 correspond to the repository's confirmed 2026 schedule (4, 11 and 25 November). Weeks 1–2 are foundation outlines; weeks 6–8 and project timing are provisional. Original notebooks remain canonical executable Python materials. JavaScript demos must not be described as Python execution; formal assessment remains in Moodle.
+Technical weeks 3–5 correspond to the repository's confirmed 2026 schedule (4, 11 and 25 November). Week 1 is a full foundational lesson; Week 2 is a foundation outline; weeks 6–8 and project timing are provisional. Original notebooks remain canonical executable Python materials. JavaScript demos must not be described as Python execution; formal assessment remains in Moodle.
 
 ## Authoring conventions
 
@@ -54,3 +54,8 @@ Optional Python-level regression test: `python scripts/test_week05_bs4.py` (requ
 ## Week 05 Version 3 · 25 November 2026
 
 Optional 30–45 minute Selenium bonus after core practice, dynamic archive at playground/dynamic-archive/ and Selenium_2026.ipynb. Genuine same-origin JSON fetch, nine synthetic records, batches of three. No external service needed to serve docs. Python requires Selenium 4, Beautiful Soup, Requests and compatible browser/driver. Colab is environment dependent. Verify with python scripts/check_docs.py, node --check docs/playground/dynamic-archive/archive.js, node --check docs/assets/js/week05-selenium.js, node scripts/test_week05_v3.js and python scripts/test_week05_selenium.py (local HTTP server and Selenium). See sandbox README for stable selectors and provenance.
+
+
+## Week 01 Version 1 · 25 November 2026
+
+A 90-minute core at `lessons/01-python-introduction/` covers eight sections and seven principal labs (plus the integrated text analysis lab), 12 formative questions, five bug-fixing exercises, a glossary and six personal checklist items. The historical `Python_Introduction.ipynb` remains unchanged and executable in Colab. Browser labs are controlled JavaScript models, not Python execution; synthetic text, Python-style whitespace and code-point slicing are explicit; Unicode casing/category versions can differ across runtimes. No new dependencies. Verify `python scripts/check_docs.py`, `node --check docs/assets/js/week01-python.js`, `node scripts/test_week01.js`, and `python scripts/test_week01_python.py`. Smoke-test controls, both themes, small screens, keyboard, copy and checklist. Existing Week 05 files are not changed.
