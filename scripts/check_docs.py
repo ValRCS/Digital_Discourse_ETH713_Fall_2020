@@ -79,7 +79,7 @@ def main():
                 problems.append(f"{path}: broken or escaping link {link}")
             elif u.fragment and target in pages and unquote(u.fragment) not in pages[target].ids:
                 problems.append(f"{path}: missing anchor {link}")
-    for name in ("articles", "quotes", "table"):
+    for name in ("articles", "quotes", "table", "nested_articles"):
         canonical = ROOT / "WebScraping" / "fixtures" / f"sample_{name}.html"
         published = DOCS / "datasets" / "web-scraping" / f"sample_{name}.html.txt"
         if not published.is_file() or not canonical.is_file() or published.read_bytes() != canonical.read_bytes():

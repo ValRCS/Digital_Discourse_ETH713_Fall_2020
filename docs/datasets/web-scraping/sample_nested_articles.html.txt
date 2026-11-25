@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="lv">
+<head><meta charset="utf-8"><title>Synthetic archive for selector practice</title></head>
+<body>
+<nav><a href="/about">Par arhīvu</a></nav>
+<main id="archive">
+  <article id="article-123" class="news culture" data-category="literature">
+    <h2>Bibliotēka un valoda</h2>
+    <p class="intro">Pirmais tiešais paragrāfs.</p>
+    <div class="body"><p>Ligzdots paragrāfs.</p><p>Vēl viens ligzdots paragrāfs.</p></div>
+    <p>Otrais tiešais paragrāfs.</p>
+    <time datetime="2026-11-25">25. novembris</time>
+    <a href="/articles/123">Lasīt rakstu</a>
+    <a href="/files/culture.pdf">PDF dokuments</a>
+    <ul class="keywords"><li>valoda</li><li>literatūra</li><li>kultūra</li></ul>
+  </article>
+  <article id="article-124" class="news" data-category="news" lang="en">
+    <h2>Research news</h2><div class="news"><p>Nested English paragraph.</p></div>
+    <a href="/articles/124">Read article</a>
+  </article>
+  <article class="advertisement"><h2>Reklāma</h2><p>Sintētiska reklāma.</p></article>
+</main>
+<footer>Kontaktinformācija</footer>
+</body>
+</html>

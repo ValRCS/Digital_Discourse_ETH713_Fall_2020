@@ -44,3 +44,7 @@ Manual smoke test: serve locally; navigate all lessons and resource pages; try t
 ## Week 05 verification
 
 Three exact .html.txt browser fixtures are in datasets/web-scraping/. Run `python scripts/check_docs.py`, `node --check docs/assets/js/week05-web-scraping.js` and `node scripts/test_week05.js`. Serve over HTTP and smoke-test format switching, tree, selectors, record rules and downloads, HTTP, tables, corpus, quizzes, theme and mobile layout. Browser demonstrations do not execute Python. Default: 5 blocks, 4 retained, 1 skipped.
+
+## Week 05 Version 2 · 25 November 2026
+
+The permanent lesson URL now includes an HTML/CSS/JavaScript refresher, Beautiful Soup object and parser reference, richer CSS selector and combinator labs, whitespace model, redesign simulator, dynamic DOM demo, Developer Tools exercise and glossary. Core lecture remains 90 minutes; expandable reference material is optional. A fourth fixture `sample_nested_articles.html` is mirrored byte-for-byte under `docs/datasets/web-scraping/`. Browser DOM exercises execute JavaScript; Python object and whitespace examples are illustrative. Original three fixtures, record extraction, table and corpus labs remain unchanged. Verify `python scripts/check_docs.py`, `node --check docs/assets/js/week05-technologies.js`, `node --check docs/assets/js/week05-web-scraping.js`, `node scripts/test_week05.js`; smoke-test both fixture choices, combinators, redraw, toggles and all V1 labs in a browser.
