@@ -1,0 +1,37 @@
+"use strict";
+const lib=require("../docs/assets/js/week04-json-apis.js");
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+const path=require("node:path");
+const root=path.resolve(__dirname,"..");
+const fixture=JSON.parse(fs.readFileSync(path.join(root,"JSON_APIs/fixtures/sample_records.json"),"utf8"));
+for(const name of ["sample_records.json","sample_api_response.json"])assert.deepEqual(fs.readFileSync(path.join(root,"JSON_APIs/fixtures",name)),fs.readFileSync(path.join(root,"docs/datasets/json-apis",name)));
+function tests(lib, fixtures, assert) {
+  const {parseJSON,jsonType,pythonType,pythonPath,treeEntries,serialize,makeCorpus,tokenize,frequencies,tsvCell,corpusTSV,freqTSV,checkShape}=lib;
+  for(const s of ['{"x":true}','[1,2]','null','"Rīga"','1e3','false'])assert(parseJSON(s).ok,"valid "+s);
+  for(const s of ["{'x': True}",'{"x":1,}','{x:1}','//comment\n{}','NaN','[1,]'])assert(!parseJSON(s).ok,"invalid "+s);
+  assert(jsonType(null)==="null"&&jsonType([])==="array"&&pythonType(true)==="bool","types");
+  assert(pythonType(1000,"1e3")==="float"&&pythonType(42,"42")==="int","number syntax");
+  assert(pythonPath(["results",0,"a\"b"])==='data["results"][0]["a\\"b"]',"path quoting");
+  assert(treeEntries([1])[0].path[0]===0&&treeEntries(null).length===0,"tree");
+  assert(treeEntries(JSON.parse('{"__proto__":1}'))[0].key==="__proto__","safe keys");
+  assert(JSON.parse(serialize({city:"Rīga",emoji:"😀"},2,true)).emoji==="😀","surrogate pair");
+  assert(serialize({city:"Rīga"},2,true).includes("\\u012b"),"Unicode");
+  assert(serialize({city:"Rīga"},0,false)==='{"city":"Rīga"}',"compact");
+  const rs=fixtures.records, ids=rs.map(r=>r.id), fields=["id","language","title","text"];
+  const c=makeCorpus(rs,ids,fields,fixtures.metadata,"2026-11-25T00:00:00Z");
+  assert(c.records.length===4&&c.metadata.skipped_count===1,"invalid record rejected");
+  assert(c.metadata.source_kind==="synthetic_fixture"&&c.metadata.generated_at_utc.endsWith("Z"),"provenance");
+  assert(makeCorpus(rs,[],fields,fixtures.metadata,"x").records.length===0,"empty selection");
+  assert(makeCorpus(rs,[rs[0].id],["title"],fixtures.metadata,"x").records[0].title===rs[0].title,"projection");
+  assert(corpusTSV(c).split("\n").length===6&&corpusTSV(c).includes("synthetic_fixture"),"TSV export");
+  assert(tsvCell('a\t"b"')==='"a\t""b"""',"TSV escaping");
+  assert(tokenize("RĪGA Ri\u0304ga 123")[1]==="rīga","Unicode NFC");
+  const f=frequencies(c.records,"lv",false), g=frequencies(c.records,"lv",true);
+  assert(f.rows.reduce((s,r)=>s+r[1],0)===f.total&&g.total<f.total,"frequency totals");
+  assert(f.rows.find(r=>r[0]==="rīga")[1]===2&&freqTSV(f,"lv").includes("lv\trīga\t2"),"frequency export");
+  assert(frequencies([],"en",false).total===0,"empty corpus");
+  assert(checkShape({title:"Rīga",language:"lv"})&&!checkShape({title:null})&&!checkShape([]),"schema check");
+}
+tests(lib,fixture,(ok,msg)=>assert.ok(ok,msg));
+console.log("Week 04 regression checks passed.");

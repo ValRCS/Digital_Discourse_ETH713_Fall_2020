@@ -97,6 +97,11 @@ def main():
             problems.append("Unexpected archive schema")
     except (OSError, ValueError, TypeError, KeyError) as exc:
         problems.append(f"Invalid archive fixture: {exc}")
+    for name in ("sample_records.json", "sample_api_response.json"):
+        canonical = ROOT / "JSON_APIs" / "fixtures" / name
+        published = DOCS / "datasets" / "json-apis" / name
+        if not published.is_file() or not canonical.is_file() or published.read_bytes() != canonical.read_bytes():
+            problems.append(f"Week 04 fixture mismatch: {name}")
     if not pages:
         problems.append("No HTML pages found")
     print(f"Checked {len(pages)} HTML pages and {checked} local/canonical references.")

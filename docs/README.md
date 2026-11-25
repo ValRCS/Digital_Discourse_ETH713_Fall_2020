@@ -17,9 +17,9 @@ GitHub Settings → Pages → Deploy from a branch → main → /docs. Expected 
 ## Structure and status
 
 - index.html: course landing page and technical lesson index.
-- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01 and 05 are full interactive lessons; six others are outlines.
+- lessons/01-... through 08-...: permanent, year-independent lesson URLs; Weeks 01, 04 and 05 are full interactive lessons; five others are outlines.
 - assets/css/: responsive shared design and print styles.
-- assets/js/: shared theme, local progress, code copying and formative quizzes. Week 05 uses dedicated JavaScript and CSS.
+- assets/js/: shared theme, local progress, code copying and formative quizzes. Weeks 01, 04 and 05 use dedicated JavaScript and CSS.
 - assets/img/: local SVG course and Week 05 illustrations and favicon; future lesson illustrations should be optimized and have appropriate alternative text.
 - resources/: notebook links, getting started, research workflow.
 - datasets/: catalogue of existing source files, with provenance notes.
@@ -59,3 +59,7 @@ Optional 30–45 minute Selenium bonus after core practice, dynamic archive at p
 ## Week 01 Version 1 · 25 November 2026
 
 A 90-minute core at `lessons/01-python-introduction/` covers eight sections and seven principal labs (plus the integrated text analysis lab), 12 formative questions, five bug-fixing exercises, a glossary and six personal checklist items. The historical `Python_Introduction.ipynb` remains unchanged and executable in Colab. Browser labs are controlled JavaScript models, not Python execution; synthetic text, Python-style whitespace and code-point slicing are explicit; Unicode casing/category versions can differ across runtimes. No new dependencies. Verify `python scripts/check_docs.py`, `node --check docs/assets/js/week01-python.js`, `node scripts/test_week01.js`, and `python scripts/test_week01_python.py`. The Node test checks model results and simulated DOM event handlers; it is not a graphical browser test. Smoke-test controls, both themes, small screens, keyboard, copy and checklist. Existing Week 05 files are not changed.
+
+## Week 04 Version 1 · 25 November 2026
+
+90-minute JSON and APIs companion: JSON validator, nested tree, Python type mappings, round-trip and Unicode labs, HTTP simulator, local corpus builder and JSON/TSV exports, language-specific word frequencies and 12 formative questions. No live API calls; browser logic uses JavaScript, and Python examples run in Colab. Local synthetic fixtures mirror canonical files under JSON_APIs/fixtures/. Run `python scripts/check_docs.py`, `node --check docs/assets/js/week04-json-apis.js`, and `node scripts/test_week04.js`. Browser smoke test: serve over HTTP, test fixture loading, invalid JSON, nested selection, Unicode, HTTP status/shape failures, corpus downloads, language and field changes, quizzes, theme, keyboard and mobile layout. JSON is the canonical export with complete provenance; TSV contains selected fields and basic source metadata.

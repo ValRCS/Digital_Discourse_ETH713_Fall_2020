@@ -1,0 +1,56 @@
+{
+  "total": 5,
+  "results": [
+    {
+      "id": "fixture-en-1",
+      "language": "en",
+      "title": "Digital humanities",
+      "text": "Digital humanities studies digital sources and research methods. Researchers examine texts and metadata.",
+      "metadata": {
+        "genre": "teaching example",
+        "year": 2026
+      }
+    },
+    {
+      "id": "fixture-en-2",
+      "language": "en",
+      "title": "Discourse analysis",
+      "text": "Discourse analysis studies language and social context. Language shapes discourse.",
+      "metadata": {
+        "genre": "teaching example",
+        "year": 2026
+      }
+    },
+    {
+      "id": "fixture-lv-1",
+      "language": "lv",
+      "title": "Rīga",
+      "text": "Rīga ir Latvijas galvaspilsēta. Rīga ir kultūras centrs.",
+      "metadata": {
+        "genre": "teaching example",
+        "year": 2026,
+        "author": null
+      }
+    },
+    {
+      "id": "fixture-lv-2",
+      "language": "lv",
+      "title": "Latviešu valoda",
+      "text": "Latviešu valoda ir baltu valoda. Valoda veido kultūru.",
+      "metadata": {
+        "genre": "teaching example",
+        "year": 2026
+      }
+    },
+    {
+      "id": "fixture-invalid-1",
+      "language": "lv",
+      "title": "Incomplete record",
+      "text": null,
+      "metadata": {
+        "genre": "teaching example",
+        "year": 2026
+      }
+    }
+  ]
+}
