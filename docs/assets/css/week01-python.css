@@ -23,3 +23,7 @@
 .q-option { display:block; margin:.4rem 0; }
 @media(max-width:520px){.w01-glossary{grid-template-columns:1fr}.w01-glossary dd{margin-bottom:.5rem}.w01-frequency-row{grid-template-columns:minmax(4rem,1fr) 1fr 2rem}}
 @media print{.w01-lab button,.w01-lab input[type=range],.w01-lab select{display:none}}
+
+/* Side-by-side slice controls, collapsing on narrow screens. */
+.w01-lab .two-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+@media(max-width:520px){.w01-lab .two-grid{grid-template-columns:1fr}}
